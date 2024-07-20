@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="weathericon.webp" type="images/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather website</title>
+</head>
+<body>
+    <h1><em>Weather Forecast</em></h1>
+    <div class="box">
+<br>
+        <div class="search">
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <input type="search" class="city" name="city" id="city" placeholder="Enter Your Location">
+            </div>
+            <button for="city"><i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+
+        </div>
+        <div class="container">
+            <div class="weather">
+                <img id="icon" src="cloud.jpeg" alt="weather" />
+                <h1 id="temp" class="temp">36°c</h1>
+                <h2 class="name">Ghaziabad</h2>
+            </div>
+
+            <div class="temp2">
+                <div>
+                    <h1 class="mintemp">18°c</h1>
+                    <h4>Minimum Temprature</h4>
+                </div>
+
+                <div>
+                    <h1 class="maxtemp">24°c</h1>
+                    <h4>Maximum Temprature</h4>
+                </div>
+            </div>
+            <div class="detail">
+
+                <div class="col">
+                    <img src="humidity.jpeg" alt="humidity">
+                </div>
+                <div>
+                    <h1 class="humidity">50%</h1>
+                    <h4>Humidity</h4>
+
+                </div>
+                <div class="col">
+                    <img src="wind.jpeg" alt="wind">
+                </div>
+                <div>
+                    <h1 class="wind">5 Km/h</h1>
+                    <h4>speed of wind</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
